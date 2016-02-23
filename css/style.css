@@ -26,14 +26,17 @@ span{
 }
 
 img{
+    
     display:block;
     margin:0 auto;
     width:auto;
     transform:translateY(70%);
     max-height: 40rem;
-    
-    
-    
-    
-    
+        
+}
+
+@media only screen
+    and(max-width:550px){
+        
+        span{background-color:aqua;}
 }
