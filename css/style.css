@@ -10,7 +10,7 @@ header{
     
     border:yellow 1rem solid;
     height: 33rem;
-    background-color:gray;
+    background-color:white;
 
 }
 
@@ -20,7 +20,7 @@ span{
     margin:0 auto;
     height: 45rem;
     line-height: 45rem;
-    background-color:chartreuse;
+    background-color:white;
     width:70%;
     
 }
@@ -39,7 +39,7 @@ img{
     and (max-width:700px){
         
         span{
-            background-color:blueviolet;
+            background-color:white;
         }
         
         img{
