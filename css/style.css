@@ -32,22 +32,12 @@ img{
     width:auto;
     transform:translateY(100%);
     max-height: 40rem;
-    transform: rotate(1.2rad) translate(520px,20px) scale(3);
+    transform: rotate(-1rad) translate(520px,20px) scale(1);
 }
 
 
-/*
-@media only screen
-    and(max-width:550px){
-        
-        span{background-color:aqua;}
-}
 
-img{
-    width:calc(100%/1.5);
-    transform:translateY(calc(100%/1.5))
-}
-*/
+
 
 
 
