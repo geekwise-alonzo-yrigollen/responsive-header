@@ -19,6 +19,7 @@ span{
     display:block;
     margin:0 auto;
     height: 45rem;
+    padding:50px 0px 0px 0px;
     line-height: 45rem;
     background-color:olivedrab;
     width:70%;
@@ -32,7 +33,17 @@ img{
     width:auto;
     transform:translateY(30%/2);
     max-height: 40rem;
-/*    transform: rotate(-1rad) translate(520px,20px) scale(1);*/
+
+}
+
+img:hover{
+    
+    background-color:aquamarine;
+    border: solid lightblue;
+    transition: background 2s;
+/*    transform: rotate(1rad) translate(520px,20px) scale(1);*/
+    
+
 }
 
 @media only screen
