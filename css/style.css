@@ -8,7 +8,7 @@ html,body{
 
 header{
     
-    border:yellow 1rem solid;
+    border:white 1rem solid;
     height: 33rem;
     background-color:white;
 
@@ -39,12 +39,17 @@ img{
     and (max-width:700px){
         
         span{
+            
             background-color:white;
+            
         }
         
         img{
+            
             max-width:calc(100%/2);
+            
         }
+        
 }
 
 
