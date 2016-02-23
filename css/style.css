@@ -19,10 +19,9 @@ span{
     display:block;
     margin:0 auto;
     height: 45rem;
-    padding:50px 0px 0px 0px;
     line-height: 49rem;
     background-color:white;
-    width:70%;
+    width:60%;
     
 }
 
@@ -30,10 +29,9 @@ img{
     
     display:block;
     margin:0 auto;
-    height:auto;
+    max-height:30rem;
     width:auto;
     transform:translateY(100%/3);
-    max-height: 10rem;
 
 }
 
@@ -41,56 +39,65 @@ img:hover{
     
     
     border: solid lightblue;
-/*
+
     transition: background 2s;
    transform: rotate(1rad) translate(520px,20px) scale(1);*/
-*/
+
     
 
 }
 
 @media only screen
-    and (max-width:786px){
+    and (min-width:768px) and (max-width:830px){
+        .newproducts .slide{margin:0 8px;}
+            
+        }
         
-        span{
-            
-/*
-            display:block;
-            margin:0 auto;
-            height:22rem;
-            width:22rem;
-*/
-            background-color:white;
-            
+        
         }
         
         img{
             
-            max-width:calc(100%/3);
-/*            transform: rotate(17rad) translate(520px,20px) scale(1);*/
+            max-width:calc(100%/1.3px);
+            height:auto;
+            transform: translate(520px,20px);*/
 
         }
         
+
+	    img{
+                
+        width:calc(97%/2);
+        height:auto; 
+        transform:translateY(calc 3rem);
+    }
+}
+
+
+        
 /*
-	    img{width:calc(590px/2);
+	    img{width:calc(590px/1);
         height:auto; transform:translateY(10rem);
     }
 }
-*/
 
-        
+@media only screen and (max-width:1035px){
+    img{width:calc(590px/1.3);
+        height:auto; transform:translateY(13.5rem);
+    }
+}
 
 @media only screen
     and (max-width:700px){
         
         span{
             
-/*
+
             display:block;
             margin:0 auto;
             height:22rem;
             width:22rem;
-*/
+
             background-color:white;
             
         }
@@ -98,16 +105,18 @@ img:hover{
         img{
             
             max-width:calc(100%/3);
-/*            transform: rotate(17rad) translate(520px,20px) scale(1);*/
+            transform: rotate(17rad) translate(520px,20px) scale(1);*/
 
         }
         
-/*
+
 	    img{width:calc(590px/2);
         height:auto; transform:translateY(10rem);
     }
 }
 */
+
+
 
 
         
