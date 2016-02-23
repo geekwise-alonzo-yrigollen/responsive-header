@@ -63,8 +63,9 @@ img:hover{
         
         img{
             
-            max-width:calc(100%/4);
-            
+            max-width:calc(100%/3);
+/*            transform: rotate(17rad) translate(520px,20px) scale(1);*/
+
         }
         
 }
