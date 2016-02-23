@@ -32,7 +32,7 @@ img{
     margin:0 auto;
     height:auto;
     width:auto;
-    transform:translateY(100%/7);
+    transform:translateY(100%/3);
     max-height: 10rem;
 
 }
@@ -41,14 +41,47 @@ img:hover{
     
     
     border: solid lightblue;
+/*
     transition: background 2s;
-/*    transform: rotate(1rad) translate(520px,20px) scale(1);*/
+   transform: rotate(1rad) translate(520px,20px) scale(1);*/
+*/
     
 
 }
 
 @media only screen
-    and (max-width:784px){
+    and (max-width:786px){
+        
+        span{
+            
+/*
+            display:block;
+            margin:0 auto;
+            height:22rem;
+            width:22rem;
+*/
+            background-color:white;
+            
+        }
+        
+        img{
+            
+            max-width:calc(100%/3);
+/*            transform: rotate(17rad) translate(520px,20px) scale(1);*/
+
+        }
+        
+/*
+	    img{width:calc(590px/2);
+        height:auto; transform:translateY(10rem);
+    }
+}
+*/
+
+        
+
+@media only screen
+    and (max-width:700px){
         
         span{
             
@@ -78,18 +111,3 @@ img:hover{
 
 
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
