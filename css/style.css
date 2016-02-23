@@ -10,7 +10,7 @@ header{
     
     border:white 1rem solid;
     height: 33rem;
-    background-color:white;
+    background-color:blue;
 
 }
 
@@ -20,7 +20,7 @@ span{
     margin:0 auto;
     height: 45rem;
     padding:50px 0px 0px 0px;
-    line-height: 45rem;
+    line-height: 49rem;
     background-color:olivedrab;
     width:70%;
     
@@ -47,11 +47,12 @@ img:hover{
 }
 
 @media only screen
-    and (max-width:768px){
+    and (max-width:784px){
         
         span{
             
-            background-color:white;
+            
+            background-color:gold;
             
         }
         
